@@ -1,0 +1,618 @@
+
+@media (max-width:1250px) {
+    .bl_center {
+        justify-content: space-between;
+        width: 57%;
+    }
+}
+
+
+
+
+@media (max-width:1200px) {
+    .btn_menu {
+        width: 150px;
+    }       
+}
+
+
+
+  
+    
+@media(max-width:1150px){
+.Block_2, .Block_3, .Block_4{
+    width: 900px;
+}
+.Block_3{
+    width: 850px;
+}
+.timerSec{
+    font-size: calc(var(--index) * 2);
+}
+.btnFeedback {
+    width: 95%;
+    height: 54px;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+
+.img_Block img {
+    width: 587px;
+    height: 400px;
+}.blockCount {
+    height: 260px;
+}
+.blockTeleg {
+    width: 50%;
+    height: 125px;
+}.telegList li {
+    margin-left: 5px;
+}
+.TelegImg img {
+    width: 90%;
+}
+.btnTeleg {
+    width: 195px;
+    font-size: 14px;
+}
+.nameBlock img {
+    width: 28px;
+    height: 28px;
+}
+.nameBlock p {
+    font-size: 20px;
+}
+.bl_servHelp p, .bl_servHelp ul a li {
+    font-size: 16px;
+    line-height: 25px;
+}
+.imgApp{
+    width: 30%;
+    height: 140px;
+}
+.btnApp {
+    width: 125px;
+    height: 35px;
+    font-size: 15px;
+}
+.btnApp p {
+    width: 75px;
+}
+.bl_servEmail {
+    width: 45%;
+    height: 125px;
+    font-size: 13px;
+}
+.bl_servEmail img {
+    width: 75px;
+    height: 75px;
+}
+}/*---------------------------------------------------------------------- 1150px ---------*/
+
+
+@media(max-width:1050px){
+    .bl_listHome p {
+        font-size: 15px;
+    }
+    .bl_listHome {
+        width: 150px;
+    }
+
+.listServise {
+    width: 128px;
+    height: 44px;
+    font-size: 14px;
+    padding-top: 14px;
+}
+.groupBtn_menu {
+    width: 100%;
+}        
+.form_bl_city input, .form_bl_district select {
+    font-size: 16px;
+}
+}/*----------------------------------------------------------------------- 1050px ---------*/
+
+    
+
+@media (max-width:1000px) {
+
+
+
+h1 {
+    font-size: 40px;
+}
+}/*----------------------------------------------------------------------- 1000px ---------*/
+
+
+
+@media (max-width:950px) {
+    .formSearch .formBtnSearch {
+        width: 100%;
+        margin: 1px 1px 1px 5px;
+    }
+    .formSearch {
+        flex-direction: column;
+    }
+    .wrapFormBlocks {
+        width: 100%;
+    }    
+    .blockCount {
+        height: 245px;
+        width: 65%;
+    }
+    .timerSec {
+        font-size: calc(var(--index) * 2.5);
+    }
+
+#head_home {
+    top: 0;
+    left: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.bl_right {
+    width: auto;
+    height: 100px;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.bl_center {
+    justify-content: space-evenly;
+    width: 70%;
+}
+#main_home {
+    width: 95%;
+    margin-top: 90px;
+}
+h1 {
+    font-size: 35px;
+    width: 100%;
+    text-align: center;
+}
+.Block_1 {
+    height: 530px;
+}
+.groupBtn_menu {
+    justify-content: space-around;
+    width: 100%; 
+    margin-top: 25px;
+}
+.btn_menu{
+    width: 125px;
+    height: 30px;
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+.groupBtn_menu div:first-child {
+    width: 115px;
+}
+.groupBtn_menu div:nth-child(3) {
+    width: 100px;
+}
+     
+
+.formSearch .formBtnSearch {
+    width: 100%;
+    height: 65px;
+    margin: 5px 0px 5px 0px;
+}
+.blockSlider {
+    width: 75%;
+    height: 500px;
+}
+.block2_wrap{
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.blockCount {
+    height: 245px;
+    width: 75%;
+    margin-bottom: 20px;
+}
+.Block_2 {
+    margin-top: 5px;
+}
+
+.img_Block img {
+    width: 677px;
+    height: 450px;
+}
+
+
+.Block_4 {
+    width: 650px;
+}
+
+.bl_servHelp {
+    flex-direction: column;
+    align-items: center;
+}
+.bl_servHelp p {
+    width: 93%;
+}
+.bl_servHelp ul {
+    width: 55%;
+}
+.bl_servGroup {
+    flex-direction: column;
+    align-items: center;
+}
+.bl_servShedl {
+    width: 100%;
+}
+.bl_servEmail {
+    width: 85%;
+    height: 155px;
+    font-size: 20px;
+}
+.imgApp {
+    width: 65%;
+    height: 185px;
+}
+.nameBlock p {
+    font-size: 18px;
+}
+.nameBlock img {
+    width: 25px;
+    height: 25px;
+}
+
+.bl_listHome {
+    width: 165px;
+}
+.f_upPanel {
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.groupSoc {
+    width: 60%;
+}
+.groupSoc, .bl_aboutUs{
+    margin-top: 80px;
+}
+.bl_aboutUs {
+    width: 145px;
+}
+}/*----------------------------------------------------------------------- 950px ---------*/
+        
+    
+@media (max-width:900px) {
+.bl_promoBud img {
+    width: 75px;
+    height: 75px;
+    transform: rotate(90deg);
+}
+@keyframes arrow {
+    0%{margin-top: 0px;}
+    100%{margin-top: 70px;}
+}
+.Block_3 {
+    width: 400px;
+    height: 600px;
+    flex-direction: column;
+}
+.bl_promoBud p {
+    font-size: 27px;
+}
+.topComp_name {
+    width: 100%;
+}
+.bl_promoBud {
+    width: 100%;
+    height: 250px;
+}
+.bl_topComp {
+    width: 100%;
+}
+}/*----------------------------------------------------------------------- 850px ---------*/
+    
+    
+
+
+@media(max-width:800px){
+    .Block_1 {
+        height: 715px;
+    }
+.wrapFormBlocks {
+    flex-direction: column;
+}
+.form_bl_city, .form_bl_district {
+    width: 95%;
+    height: 50px;
+    border: none;
+}
+.form_bl_city input, .form_bl_district select{
+    border-bottom: 1px solid rgb(188, 188, 188);
+    height: 50px;
+
+}
+
+.form_bl_price {
+    width: 60%;
+    line-height: 30px;
+    margin-top: 15px;
+
+}
+.form_bl_typeRstate {
+    width: 60%;
+    margin-bottom: 15px;
+
+}
+
+}
+
+
+
+
+
+
+@media(max-width:750px){
+.Block_4 {
+    width: 95%;
+}
+}/*----------------------------------------------------------------------- 750px ---------*/
+   
+
+
+ 
+@media(max-width:700px){
+    .blockCount {
+        width: 65%;
+    }
+.blockSlider {
+    width: 65%;
+    height: 450px;
+}
+
+.img_Block img {
+    width: 587px;
+    height: 400px;
+}
+}/*----------------------------------------------------------------------- 700px ---------*/
+
+    
+
+
+
+
+@media(max-width:650px){
+    .Block_1 {
+        height: 630px;
+    }
+#main_home {
+    margin-top: 110px;
+}
+.bl_center, .groupBtn_menu {
+    display:none;
+}
+.bl_imgMenu{
+    display: block;
+}
+h1 {
+    font-size: 27px;
+}
+h1 img{
+    width: 25px;
+    height: 25px;
+}
+.switchDay {
+    height: 18px;
+    padding: 1.5px;
+    width: 42px; 
+}   
+.dayCircle {
+    width: 15px;
+    height: 15px;
+}    
+.bl_right {
+    height: 75px;
+    font-size: 13px;
+}
+.f_upPanel {
+    justify-content: space-between;
+}
+.bl_footer1{
+    width: 100%;
+    border-bottom: 1px solid white;
+}
+.bl_footer1 p{
+    width: 90%;
+ }
+ .bl_listHome p {
+   border: none;
+}
+
+.listfootDOP{
+   display: none;
+}
+.bl_footer1{
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    box-sizing: border-box;
+}
+.bl_footer1 ul li{
+    background-color: aliceblue;
+    padding: 5px;
+    box-sizing: border-box;
+    color: black;
+}
+.bl_footer1 ul{
+    width: 100%;
+}
+.bl_footer1 ul a li{
+    color: rgb(27, 126, 224);
+    font-weight: bold;
+}
+.SocIcon p{
+    display: none;
+}
+.bl_footer1 img{
+    display: block;
+}
+.groupSoc, .bl_aboutUs {
+    display: flex;
+    width: 100%;
+    margin-top: 0px;
+    justify-content: space-around;
+    align-items: center;
+    height: 140px;
+    }
+.SocIcon {
+    width:20%;
+}
+.bl_aboutUs img {
+    width: 120px;
+}
+.f_downPanel {
+    flex-direction: column;
+}
+.f_downPanel_img {
+    justify-content: space-around;
+    width: 100%;
+}
+.f_downPanel_p p{
+    margin-top: 10px;
+    text-align: center;
+}
+}/*----------------------------------------------------------------------- 650px ---------*/
+    
+
+@media(max-width:620px){
+    .blockCount {
+        width: 48%;
+    }
+    .blockSlider {
+        width: 48%;
+        height: 385px;
+    }
+    .img_Block img {
+        width: 434px;
+        height: 360px;
+    }
+}/*----------------------------------------------------------------------- 620px ---------*/
+  
+
+
+@media(max-width:550px){
+.bl_servHelp ul {
+    width: 82%;
+}
+.imgApp {
+    width: 45%;
+    height: 155px;
+}
+.servShedl P {
+    width: 95%;
+}
+.bl_servEmail {
+    width: 100%;
+    height: 130px;
+    font-size: 15px;
+}
+}/*----------------------------------------------------------------------- 550px ---------*/
+
+
+
+
+
+
+/*================================================  mobile =================================================*/
+
+
+@media(max-width:470px){
+    .Block_2 {
+        width: 800px;
+    }
+    .img_Block img {
+        width: 384px;
+        height: 295px;
+    }
+    .blockSlider {
+        height: 295px;
+    }
+    .telegList {
+        display: block;
+        margin-bottom: 0px;
+    }
+    .blockTeleg {
+        width: 48%;
+        height: 250px;
+        padding: 20px;
+    box-sizing: border-box;
+    flex-direction: column;
+    }
+    .TelegImg {
+        width: 27%;
+    }
+    .telegName {
+        width: auto;
+    }
+    .btnTeleg {
+        width: 100%;
+        font-size: 15px;
+    }
+
+
+    .Block_3 {
+        width: 350px;
+        height: 550px;
+    }
+    .bl_promoBud p {
+        font-size: 24px;
+    }   
+    .topComp_list {
+        width: 100%;
+    }
+    .nameBlock {
+        justify-content: center;
+    }
+
+    .imgApp {
+        width: 21%;
+        height: 100px;
+    }
+    .bl_servEmail div p {
+        width: 100%;
+    }
+    span[name="y"] {
+        font-size: 18px;
+    }
+    .bl_servEmail {
+        height: 120px;
+        font-size: 14px;
+    }
+    .bl_servEmail img{
+        width: 65px;
+        height: 65px;
+    }
+    .Block_2, .Block_3, .Block_4 {
+        margin-bottom: 0px;
+    }
+}
+
+
+
+@media(max-width:415px){
+
+    .Block_2 {
+        width: 700px;
+    }
+    .img_Block img {
+        width: 337px;
+        height: 245px;
+    }
+    .blockSlider {
+        height: 245px;
+    }
+    span[name="y"] {
+        font-size: 16px;
+    }
+}
