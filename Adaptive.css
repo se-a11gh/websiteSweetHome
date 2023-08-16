@@ -1,10 +1,9 @@
 
 @media (max-width:1250px) {
-    .bl_center {
-        justify-content: space-between;
-        width: 57%;
-    }
-}
+
+    
+}/*---------------------------------------------------------------------- 1250px ---------*/
+ 
 
 
 
@@ -13,11 +12,19 @@
     .btn_menu {
         width: 150px;
     }       
-}
+}/*---------------------------------------------------------------------- 1200px ---------*/
 
-
+    
   
+    
 @media(max-width:1150px){
+    .btnList {
+        font-size: 15px;
+    }
+    .wrap_list {
+        width: 55%;
+    }
+
 .Block_2, .Block_3, .Block_4{
     width: 900px;
 }
@@ -97,13 +104,15 @@
     .bl_listHome {
         width: 150px;
     }
+    .wrap_list {
+        width: 65%;
+    }
+    .bl_right {
+        width: 10%;
+        height: 115px;
+        flex-direction: column;
+    }
 
-.listServise {
-    width: 128px;
-    height: 44px;
-    font-size: 14px;
-    padding-top: 14px;
-}
 .groupBtn_menu {
     width: 100%;
 }        
@@ -159,10 +168,7 @@ h1 {
     flex-direction: column;
     align-items: flex-end;
 }
-.bl_center {
-    justify-content: space-evenly;
-    width: 70%;
-}
+
 #main_home {
     width: 95%;
     margin-top: 90px;
@@ -198,7 +204,9 @@ h1 {
     width: 100%;
     height: 65px;
     margin: 5px 0px 5px 0px;
+    padding-top: 21px;
 }
+
 .blockSlider {
     width: 75%;
     height: 500px;
@@ -353,6 +361,13 @@ h1 {
 .Block_4 {
     width: 95%;
 }
+.bl_imgMenu{
+    display: block;
+}
+.wrap_list {
+    display: none;
+}
+
 }/*----------------------------------------------------------------------- 750px ---------*/
    
 
@@ -385,12 +400,10 @@ h1 {
 #main_home {
     margin-top: 110px;
 }
-.bl_center, .groupBtn_menu {
+.groupBtn_menu {
     display:none;
 }
-.bl_imgMenu{
-    display: block;
-}
+
 h1 {
     font-size: 27px;
 }

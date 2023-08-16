@@ -1,149 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--------- добавить теги для SEO --------->
-    <link rel="shortcut icon" href="media/home.ico" type="image/x-icon">
-    <link rel="stylesheet" href="Style.css">
-    <link rel="stylesheet" href="Adaptive.css">
-    <title>SweetHome</title>
-</head>
-<body>
-<div class="Wrapper">
-    
-    <section class="Block_1">
-    <header id="head_home">
-    <div class="bl_imgMenu">
-            <img class="btnMenu" src="media/menu.png" alt="логотип">
-        </div>
-
-
-
-
-
-<aside id="asideMenu">
-        <div class="bl_btnClose"> <img class="btnCloseMenu" src="media/wClose.png" alt=""></div>
-        <nav class="navListMenu"> 
-            <ul>
-                <li>Квартиры</li>
-                <li>Дома и котеджы</li>
-                <li>Хостелы</li>
-                <li>Отели</li>
-                <li>Страхование</li>
-            </ul>
-            <div class="navList wrapListJS">
-            <p>Сдать / Продать</p> <img class="navArrow listJS_Up" src="media/strel2.png" alt="">
-            <div class="asideContent listJS_Down">
-                <ul>
-                    <li>Самостоятельно</li>
-                    <li>Найти риелтора</li>
-                </ul>
-            </div>
-            </div>
-            <div class="navList wrapListJS">
-            <p>Купить билеты</p> <img class="navArrow listJS_Up" src="media/strel2.png" alt="">
-            <div class="asideContent listJS_Down">
-                <ul>
-                    <li>На поезд</li>
-                    <li>На самолет</li>
-                </ul>
-            </div>
-            </div>
-            <div class="navList wrapListJS">
-            <p>Личный кабинет</p> <img class="navArrow listJS_Up" src="media/strel2.png" alt="">
-            <div class="asideContent listJS_Down">
-                <ul>
-                    <li>Войти</li>
-                    <li>Регистрация</li>
-                </ul>
-            </div>
-            </div>
-            <div class="navList wrapListJS">
-            <p>Контакты</p> <img class="navArrow listJS_Up" src="media/strel2.png" alt="">
-            <div class="asideContent listJS_Down">
-                <ul>
-                    <li>0-800-505-36-50</li>
-                    <li>hsfsj@.gmail.com</li>
-                </ul>
-            </div>
-            </div>
-        </nav>
-</aside>
-
-
-    <div class="bl_imgLogo">
-        <img src="media/Logo2.svg" alt="логотип">
-    </div>
-
-
-<div class="bl_center">
-    <div class="wrapListServ wrapListJS">
-    <p class="listServise listJS_Up">Сдать / Продать</p>
-    <div class="listDown listJS_Down">
-        <a href=""><p>Самостоятельно</p></a> 
-        <a href=""><p>Найти риелтора</p></a> 
-    </div>
-    </div>
-
-        <div class="wrapListServ wrapListJS">
-        <p class="listServise listJS_Up">Купить билеты</p>
-        <div class="listDown listJS_Down">
-            <a href=""><p>На поезд</p></a> 
-            <a href=""><p>На самолет</p></a> 
-        </div>
-        </div>
-
-        <div class="wrapListServ wrapListJS">
-        <p class="listServise listJS_Up">Личный кабинет</p>
-        <div class="listDown listJS_Down">
-                <a href=""><p>Войти</p></a> 
-            <a href=""><p>Регистрация</p></a> 
-        </div>
-        </div>
-    </div>
-<div class="bl_right">
-<div class="switchDay"><div class="dayCircle"></div></div>
-<ul class="headList">
-<span>Справка<small>&#9660;</small></span>    
-<li>sdsds</li>
-<li>sdsds</li>
-<li>sdsds</li>
-</ul>
-<ul class="headList">
-<span>Укр<small>&#9660;</small></span>    
-<li>Укр</li>
-<li>Eng</li>
-</ul>
-</div>
-</header>
-
-
-
+<?php require('header.php');?>
 
 <main id="main_home">
-    <h1>Поиск комфортного жилья <img src="media/key.png" alt="" width="40" height="40"></h1>
+    <h1>Пошук комфортного житла <img src="media/key.png" alt="" width="40" height="40"></h1>
     <div class="groupBtn_menu">
-        <div class="btn_menu">Квартиры</div>
-        <div class="btn_menu">Дома и котеджы</div>
-        <div class="btn_menu">Хостелы</div>
-        <div class="btn_menu">Отели</div>
-        <div class="btn_menu">Страхование</div>
+        <div class="btn_menu">Квартири</div>
+        <div class="btn_menu">Дома та котеджі</div>
+        <div class="btn_menu">Хостели</div>
+        <div class="btn_menu">Готелі</div>
+        <div class="btn_menu">Страхування</div>
     </div>
 
     <form class="formSearch" action="" method="">
     <div class="wrapFormBlocks">
-            <div class="form_bl_city"><input type="text" placeholder="Город  ?"></div>
+            <div class="form_bl_city"><input id="city" type="text" placeholder="Місто  ?"></div>
             <div class="form_bl_district">
                 <select name="" id="distr">
-                    <option value="">Печерский р-н</option>
-                    <option value="">Святошинский р-н</option>
-                    <option value="">Шевченковский р-н</option>
+                    <option value="Печерський р-н">Печерський р-н</option>
+                    <option value="Святошинський р-н">Святошинський р-н</option>
+                    <option value="Шевченківський р-н">Шевченківський р-н</option>
                 </select>
             </div>
             <div class="form_bl_price">
-            <label for="">от </label>
+            <label for="">від </label>
             <input class="outPrice" type="number" value="0"><br>
             <input class="rangePrice" type="range" min="0" max="5000" value="0"><br>
             <label for="">до </label>
@@ -151,12 +29,16 @@
             <input class="rangePrice2" type="range" min="5001" max="10000" value="5001">       
             </div>
             <div class="form_bl_typeRstate">
-            <div class="bl_radio"> <input id="oneHome" name="homeRadio" type="radio">  <label class="sh1" for="oneHome"></label><span>Аренда</span></div>
-            <div class="bl_radio"> <input id="oneHome2" name="homeRadio" type="radio"><label class="sh2" for="oneHome2"> </label><span>Покупка</span></div>
+            <div class="bl_radio"> <input id="oneHome" class="rad_1" name="homeRadio" type="radio" value="Оренда" checked>  <label class="sh1" for="oneHome"></label><span>Оренда</span></div>
+            <div class="bl_radio"> <input id="oneHome2" class="rad_1"  name="homeRadio" type="radio" value="Купівля"><label class="sh2" for="oneHome2"> </label><span>Купівля</span></div>
             </div>
     </div>
-    <input class="formBtnSearch" type="submit" value="Найти">
+    <!-- <input class="formBtnSearch" type="submit" value="Знайти"> -->
+    <div class="formBtnSearch testBTN">Знайти</div>
     </form>
+
+<p class='rex'></p>
+
 </main>
 </section>
 
@@ -180,8 +62,8 @@
 
 <div class="blockCount">
 <p class="timerSec">2357</p>
-<p class="newText">ИЩУТ СВОЕ ЖИЛЬЕ ...</p>
-<button class="btnFeedback" type="button">Отзывы клиентов</button>
+<p class="newText">ШУКАЮТЬ СВОЄ ЖИТЛО ...</p>
+<button class="btnFeedback" type="button">Відгуки клієнтів</button>
 </div>
 </div><!-- block2_wrapEND --->
 
@@ -189,7 +71,7 @@
     <div class="blockTeleg">
             <div class="TelegContent">
             <div class="telegName">
-            <img src="media/icTeleg.png" alt=""><p>Ваш личный кабинет в Телеграмм</p>
+            <img src="media/icTeleg.png" alt=""><p>Ваш особистий кабінет у Телеграмм</p>
             </div>
             <ul class="telegList">
             <li> <img src="media/mark.png" alt=""> Доступ к билетам и кабинету</li>
@@ -239,14 +121,14 @@
     як додати до замовлення страховку тощо( також англійською мовою).
     </p>
     <ul>
-    <a href=""><li>Що потрібно знати, купуючи квитки ?</li></a> 
-    <a href=""><li>в період епідемії Covid-19 ?</li></a> 
-    <a href=""><li>Як забронювати авіаквиток ?</li></a> 
-    <a href=""><li>Як оплатити авіаквиток ?</li></a> 
-    <a href=""><li>Як зареєструватися на рейс ?</li></a> 
-    <a href=""><li>Як повернути авіаквиток ?</li></a> 
-    <a href=""><li>Бонусна програма</li></a> 
-    <a href=""><li>Усі теми</li></a> 
+    <li><a href="">Що потрібно знати, купуючи квитки ?</a> </li>
+    <li><a href="">В період епідемії Covid-19 ?</a> </li>
+    <li><a href="">Як забронювати авіаквиток ?</a> </li>
+    <li><a href="">Як оплатити авіаквиток ?</a> </li>
+    <li><a href="">Як зареєструватися на рейс ?</a> </li>
+    <li><a href="">Як повернути авіаквиток ?</a> </li>
+    <li><a href="">Бонусна програма</a> </li>
+    <li><a href="">Усі теми</a> </li>
     </ul>
     </div> 
 </div>  
@@ -280,74 +162,4 @@
 
 
 
-
-<footer id="footer_home">
-    <div class="f_upPanel">
-    <div class="bl_listHome bl_footer1">
-    <p>Подобрать жилье</p> <img class="footDown" src="media/Group.png" alt="">
-        <ul class="listHome listfootDOP">
-            <li>Дома / Котеджи</li>
-            <li>Квартиры</li>
-            <li>Хостелы</li>
-            <li>Отели</li>
-            <a href=""><li>Самые дешевые &#8594;</li></a>
-            <a href=""><li>Высокий рейтинг &#8594;</li></a>
-        </ul>
-    </div>
-    <div class="bl_listHome bl_footer1">
-    <p>Наші сервіси</p> <img class="footDown" src="media/Group.png" alt="">
-        <ul class="listHome listfootDOP">
-            <li>Найти риелтора</li>
-            <li>Сдать / продать</li>
-            <li>Порівняння цін</li>
-            <li>Купить билеты</li>
-            <a href=""><li>Карта сайту &#8594;</li></a>
-        </ul>
-    </div>
-    <div class="bl_listHome">
-    <p>Постоянным клиентам </p>
-        <ul class="listHome">
-            <li>Регистрация</li>
-            <li>Войти</li>
-        </ul>
-    </div>
-    <div class="groupSoc">
-        <div class="btnsFooter">
-            <p>Скачивайте наше приложение </p>
-            <button class="btnApp" type="button">Google Play</button>
-            <button class="btnApp" type="button">App Store</button>
-        </div>
-        <div class="SocIcon">
-            <p>Подписуйтесь на нас</p>
-            <img src="media/card2.png" alt="">
-            <img src="media/card3.png" alt="">
-            <img src="media/card4.png" alt="">
-            <img src="media/card5.png" alt="">
-        </div>
-    </div>
-    <div class="bl_aboutUs">
-    <img src="media/LogoF.svg" alt="">
-    <ul class="listHome">
-            Контакты
-            <li>0-800-505-36-50</li>
-            <li>hsfsj@.gmail.com</li>
-        </ul>
-    </div>
-</div>
-<div class="f_downPanel">
-    <div class="f_downPanel_img"> 
-        <img class="size1" src="media/master.png" alt="">
-        <img class="size1" src="media/AmExp.png" alt="">        
-        <img class="size2" src="media/visa.png" alt="">        
-    </div>
-    <div class="f_downPanel_p"><p>Политика конфеденциальности</p><p>2023г. | Все права защищены</p></div>
-</div>
-</footer>
-
-
-
-</div>
-<script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
-<script src="sh.js"></script>
-</body>
-</html>
+<?php require('footer.php');?>
